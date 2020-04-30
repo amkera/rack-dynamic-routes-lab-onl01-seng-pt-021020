@@ -14,9 +14,9 @@ class Application
       
         if item.nil?
           resp.write "Item not found"
-          rep.status = 400 
+          resp.status = 400 
         else 
-          rep.write
+          resp.write item.price 
      
     end 
   end 
