@@ -1,3 +1,4 @@
+require 'pry'
 class Application 
   
   @@items = ["Bananas", "Carrots", "Apples", "Kiwis"]
